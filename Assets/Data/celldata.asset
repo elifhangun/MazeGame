@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d6a8f4e9f449e468a4b7311dc20997, type: 3}
   m_Name: celldata
   m_EditorClassIdentifier: Assembly-CSharp::CellData
-  m_wallPieces: []
-  m_roomPieces: []
+  m_wallPieces:
+  - {fileID: 3925369938188488044, guid: 6e2d22a99d655684b8419a66ca2c900d, type: 3}
+  m_roomPieces:
+  - {fileID: 3510202069873522, guid: 58f492c2ab3386c4b9be29ba10cc2308, type: 3}
