@@ -83,8 +83,8 @@
                 },
                 {
                     "name": "",
-                    "id": "b36a3e9c-2aca-4736-a9d6-37fba45f10f7",
-                    "path": "<VirtualMouse>/delta",
+                    "id": "5e1a508c-cc18-4c61-99dc-2fdcc4e55bb5",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
