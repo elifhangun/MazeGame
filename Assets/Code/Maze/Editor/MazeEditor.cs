@@ -1,6 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
+using MazeGame.Maze;
 
 public class MazeEditor : EditorWindow
 {
@@ -43,7 +44,7 @@ public class MazeEditor : EditorWindow
         this.m_height = new IntegerField("Height");
         this.m_height.value = 21;
         this.m_seed = new IntegerField("Seed");
-        this.m_seed.value = 2432;
+        this.m_seed.value = 230432;
         groupBox.Add(this.m_width);
         groupBox.Add(this.m_height);
         groupBox.Add(this.m_seed);
