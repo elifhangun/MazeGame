@@ -15,8 +15,6 @@ namespace StateMachine.States.Enemy
 
         public override void UpdateState()
         {
-           
-
             if (!m_isMoving)
             {
                 Vector3 rpos = Game.m_maze.GetRandomCell(Time.renderedFrameCount);
@@ -27,6 +25,8 @@ namespace StateMachine.States.Enemy
             {
                 m_isMoving = false;
             }
+            Game.m_gameData.m_enemyPosition = Game.m_enemy.m_comp.m_agent.transform.position;
+            Game.m_gameData.m_enemyDestination = Game.m_enemy.m_comp.m_agent.destination;
         }
     }
 }
